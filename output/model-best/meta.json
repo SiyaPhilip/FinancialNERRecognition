@@ -22,8 +22,18 @@
     ],
     "ner":[
       "ADDRESS",
+      "BAN",
+      "Date",
       "FULL_NAME",
-      "JOB_TITLE"
+      "Invoice_Number",
+      "Money",
+      "NI",
+      "ORG",
+      "Phone_Number",
+      "Salary",
+      "Sort_Code",
+      "TaxCode",
+      "VAT"
     ]
   },
   "pipeline":[
@@ -42,12 +52,12 @@
     "ents_p":1.0,
     "ents_r":1.0,
     "ents_per_type":{
-      "FULL_NAME":{
+      "VAT":{
         "p":1.0,
         "r":1.0,
         "f":1.0
       },
-      "JOB_TITLE":{
+      "FULL_NAME":{
         "p":1.0,
         "r":1.0,
         "f":1.0
@@ -56,9 +66,59 @@
         "p":1.0,
         "r":1.0,
         "f":1.0
+      },
+      "Salary":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "TaxCode":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "BAN":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "NI":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Sort_Code":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "ORG":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Date":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Invoice_Number":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Phone_Number":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Money":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
       }
     },
-    "tok2vec_loss":0.0000000095,
-    "ner_loss":0.0000001356
+    "tok2vec_loss":0.0000422995,
+    "ner_loss":0.0002179541
   }
 }
